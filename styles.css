@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-family: Arial, sans-serif;
+    color:  #4A5A67;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: gray;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.nav-links a:hover {
+    color: #2EB4FF;
+}
+
+.btn-primary {
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 1rem;      
+}
+
+.btn-primary {
+    background-color: #E6F7FF;
+    color: #2EB4FF;
+}
+
+.navbar-button a:hover {
+    background-color: #2EB4FF;
+    color: #E6F7FF;
+}
+
+.hero {
+    padding: 4rem 0;
+}
+.hero {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    /* margin-bottom: 1rem; */
+    color: #4A5A67;
+    font-weight: bold;
+    margin-bottom: 0.1rem;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #2EB4FF;
+    font-weight: bold;
+    margin-bottom: 0.1rem;
+}
+
+.hero-text p {
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: gray;
+}
+
+.btn-primary2 {
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 1rem;
+       
+}
+
+.btn-primary2 {
+    background-color: #2EB4FF;
+    color: #E6F7FF;
+}
+
+.hero-button a:hover {
+    background-color: #E6F7FF;
+    color: #2EB4FF;
+}
+
+.hero-image img {
+    object-fit: cover;
+
+}
